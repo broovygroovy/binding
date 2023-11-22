@@ -9,19 +9,17 @@
 </head>
     <body>
         <header>
-            <div class="menu-btn" onclick="toggleMenu()">
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-              </div>
-              <nav class="menu">
-                <ul>
-                  <li><a href="index.html">H O M E</a></li>
-                  <li><a href="reading1.html">G R I D</a></li>
-                  <li><a href="reading2.html">T Y P E</a></li>
-                  <li><a href="reading3.html">C O L O R</a></li>
-                </ul>
-              </nav>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox"/>
+            <label class="menu__btn" for="menu__toggle">
+            <span></span></label>
+            <ul class="menu__box">
+            <li><a class="menu__item" href="index.html">01<em class="bigmenu__item">H O M E</em></a></li>
+            <li><a class="menu__item" href="reading1.html">02<em class="bigmenu__item">G R I D</em></a></li>
+            <li><a class="menu__item" href="reading2.html">03<em class="bigmenu__item">T Y P E</em></a></li>
+            <li><a class="menu__item" href="reading3.html">04<em class="bigmenu__item">C O L O R</em></a></li>
+            </ul>
+          </div>
         </header>
         <main>
             <h1>Three Pillars of Design</h1>
