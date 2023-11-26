@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,500;1,600&family=Cormorant+Upright:wght@300;400;600&family=Habibi&family=Roboto:wght@100;500;700&display=swap');
+@font-face {
+	font-family: 'Roboto';
+	src: url('../binding/fonts/Roboto-Light.ttf');
+  src: url('../binding/fonts/Roboto-Medium.ttf');
+  src: url('../binding/fonts/Roboto-Regular.ttf');
+
+  font-family: 'ChronicleDeck';
+  src: url('../binding/fonts/ChronicleDeck-Roman.otf');
+  src: url('../binding/fonts/ChronicleDeck-Italic.otf');
+  src: url('../binding/fonts/ChronicleDeck-Semitalic.otf');
+
+  font-family: 'BigShouldersDisplay';
+  src: url('../binding/fonts/BigShouldersDisplay-VariableFont_wght.ttf');
+
+  font-family: 'CormorantGaramond';
+  src: url('../binding/fonts/CormorantGaramond-SemiBoldItalic.ttf');
+}
 
 #menu__toggle {opacity: 0;}
 #menu__toggle:checked + .menu__btn > span {transform: rotate(45deg);}
