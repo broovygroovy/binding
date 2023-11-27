@@ -94,6 +94,14 @@
 }
 
 /*Basic Styles*/
+
+
+.headbar{
+color: #0026F4;
+margin-top: -10px;
+padding-left: 40px;
+}
+
 p{
 font-family: Roboto;
 font-size: 16px;
@@ -112,6 +120,7 @@ font-weight: 600;
 letter-spacing: 2.7px;
 padding-top: 2%;
 padding-bottom: 2%;
+text-transform: uppercase;
 }
 
 /* Logo*/
@@ -200,3 +209,10 @@ padding-bottom: 2%;
   padding-bottom: 100px;
 }
 
+.bluefooter{
+  background-color:#0026F4;
+  padding-top: 40px;
+  padding-bottom: 3%;
+  color: #FFF;
+  margin-top: 40px;
+}

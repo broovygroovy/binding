@@ -1,95 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,500;1,600&family=Cormorant+Upright:wght@300;400;600&family=Habibi&family=Roboto:wght@100;500;700&display=swap');
-
-h1{color: #FFF;
-  font-family: Didot;
+h1{
+  font-family: Chronicle Deck;
   font-size: 60px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize}
-
-.body1{width: 80%, 40%;
-  color: #000;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 350;
-line-height: 30px;}
-
-.subhead2{
-  color: #000;
-font-family: Didot;
-font-size: 30px;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-padding: 3%;
+  font-style: normal;
+  font-weight: 325;
+  text-transform: capitalize;
+  padding-left: 10%;
 }
 
-.subhead3{
-  color: #FF7A00;
-  text-align: center;
+.navbox{
+  padding-left: 10%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.navitem{
+  display: inline;
+  justify-content: center;
+  background-color: #0026F4;
+  color: #FFF;
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 400;}
-
-.subhead4{
-  color: #000;
-  text-align: center;
-  font-family: Didot;
-  font-size: 24px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 30px;
+  border-radius: 50px;
+  padding: 14px;
+  }
+
+.quote{
+  font-family: Chronicle Deck;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 325;
+  line-height: normal;
+  padding-bottom: 2%;
 }
 
-.paula{
-  color: #000;
-  text-align: center;
-font-family: Didot;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-}
-
-.lastbody{
-  color: #000;
-font-family: Roboto;
-text-align: center;
-font-size: 16px;
-line-height: 30px;
-}
-
-.sec3sub1{
-  color: #000;
-font-family: Roboto;
-font-size: 12px;
-padding: 1%;
-}
-
-.sec3h1{
-  color: #000;
-font-family: Baskerville;
-font-size: 35px;
-font-weight: 400;
-padding: 1%;
-}
-
-.sec3body{
-  color: #000;
+.descrip{
   font-family: Roboto;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 20px;
-  padding: 1%;
+  line-height: normal;
 }
 
-.horizontal-line {
-  border-top: 1px solid #000; 
+.fontcard{
+  padding: 10px;
+  border: 1px solid #0026F4;
+  position: relative;
+  width: 380px;
+  height: 90px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 
-.sec1sub1{
-  color: white;
-font-family: Roboto;
-font-size: 12px;
+.namecard{
+  padding-left: 2px;
+  padding-top: 10px;
+  border: 1px solid white;
+  background-color: #a6b4ff;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.advice{
+  font-family: Chronicle Deck;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 325;
+  line-height: normal;
+  padding-bottom: 1%;
+  padding-top: 2%;
 }
