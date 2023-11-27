@@ -216,3 +216,47 @@ text-transform: uppercase;
   color: #FFF;
   margin-top: 40px;
 }
+
+/*chapter cards*/
+.chaptersec{
+  margin-top: -10%;
+  margin-left: 3%;
+}
+.topiccard1{
+  display:inline-block;
+  width: 232px;
+  height: 376px;
+  background-color: #0026f4;
+  border-radius: 10px;
+  rotate: -90deg;
+  margin-left: 12%;
+}
+
+.topic1{
+  color: #FFF;  
+  font-family: Big Shoulders Display;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  margin-top: 320px;
+}
+
+.topic2{
+  color: #FFF;  
+  font-family: Chronicle Deck;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 325;
+  margin-top: 320px;
+}
+
+.topic3{
+  color: #FFF;  
+  font-family: Cormorant Garamond;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 320px;
+}
