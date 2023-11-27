@@ -14,29 +14,64 @@
             <label class="menu__btn" for="menu__toggle">
             <span></span></label>
             <ul class="menu__box">
-            <li><a class="menu__item" href="reading1.html">/01<em class="bigmenu__item">G R I D</em></a></li>
-            <li><a class="menu__item" href="reading2.html">/02<em class="bigmenu__item">T Y P E</em></a></li>
-            <li><a class="menu__item" href="reading3.html">/03<em class="bigmenu__item">C O L O R</em></a></li>
+            <p class="smallmenu__item">/00</p>
+            <li><a class="grid" href="index.html">HOME</a></li>
+            <p class="smallmenu__item">/01</p>
+            <li><a class="grid" href="reading1.html">GRID</a></li>
+            <p class="smallmenu__item">/02</p>
+            <li><a class="type" href="reading2.html">Type</a></li>
+            <p class="smallmenu__item">/03</p>
+            <li><a class="color" href="reading3.html">Color</a></li>
+            <div class="bluelogobox"> 
+              <p class="pdsmall" >Pillars<em class="ofsmall">of</em> Design</p>
+              <p class="by">by Bhroovi Gupta</p>
+            </div>
             </ul>
           </div>
         </header>
-        <main>
-            <h1>Pillars of Design</h1>
-    <p class="subhead">INTRODUCTION</p>
-    <p>Research shows that ninety-eight languages have words for the same eleven basic colours; however, the meaning a colour may have can be very different. There are conflicting theories on whether the cultural meanings of colours can be categorised. Meanings can change over time and depend on the context. Black may be the colour of mourning in many countries, though a black book cover or a black poster is not always associated with death. Another example is that brides in China traditionally wear red, but many brides have started to wear white in recent decades. The cultural meaning of colours is not set but always changing. The next few pages list some of the meanings of colours in different cultures.</p>
-    <p class="navitems">Grid</p>
-    <p class="navitems">Type</p>
-    <p class="navitems">Color</p>
-    <p class="subhead">ABOUT</p>
-    <p>Research shows that ninety-eight languages have words for the same eleven basic colours; however, the meaning a colour may have can be very different. There are conflicting theories on whether the cultural meanings of colours can be categorised. Meanings can change over time and depend on the context. Black may be the colour of mourning in many countries, though a black book cover or a black poster is not always associated with death. Another example is that brides in China traditionally wear red, but many brides have started to wear white in recent decades. The cultural meaning of colours is not set but always changing. The next few pages list some of the meanings of colours in different cultures.</p>
-        </main>
+        
+<main>
+  <button onclick="topFunction()" id="scrollbtn" title="Go to top">↑</button>
+
+  <p class="pdbig">Pillars<br><em class="ofbig">of</em> Design</p>
+
+  <p class="subhead">INTRODUCTION</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+  <div class="chaptersec">
+    <p class="subhead">CHAPTERS</p>
+    cards here
+  </div>
+
+  <div class="bluesection">
+  <p class="subhead">COLOPHON</p>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</main>
+<footer>
+  <div class="bluelogobox"> 
+    <p class="pdsmall">Pillars<em class="ofsmall">of</em> Design</p>
+    <p class="by">by Bhroovi Gupta</p>
+  </div>
+</footer>
         <script>
-            function toggleMenu() {
-              const menu = document.querySelector('.menu');
-              menu.classList.toggle('active');
-            }
+          /* HamburgerMenu*/
+          function toggleMenu() {
+          const menu = document.querySelector('.menu');
+          menu.classList.toggle('active');}
+          
+          /*Scroll Button*/
+          let mybutton = document.getElementById("scrollbtn");
+          window.onscroll = function() {scrollFunction()};
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }}
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
           </script>
-        <footer>
-        </footer>
     </body>
 </html>
