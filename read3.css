@@ -11,5 +11,38 @@ h1{
   font-size: 32px;
   font-style: italic;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 30px;
 }
+
+.navitem{
+  display: inline;
+  justify-content: center;
+  background-color: #0026F4;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 50px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+
+  .navbox{
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .colorcard{
+      padding: 15px;
+      border: 1px solid #0026F4;
+      position: relative;
+      width: 400px;
+      height: 550px;
+      border-radius: 10px;
+      margin-left: 10%;
+      margin-top: 10px;
+  }
