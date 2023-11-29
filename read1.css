@@ -5,14 +5,54 @@ h1{
   font-weight: 400;
   text-transform: uppercase;
   padding-left: 10%;
+  padding-bottom: 1%;
+  padding-top: 10%;
 }
 
-.quote{
+@media screen and (max-width: 800px) {
+  h1{
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-top: 0%;}
+}
+
+.shadowquote{
   font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 60px;
-  margin-left: 70px;
+  margin-left: 90px;
+  margin-bottom: 50px;
   color: #0026F4;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  width: 50%;
+  max-width: 500px;
+  border: solid 2px #0026F4;
+  border-radius: 5px;
+  box-shadow: 15px 15px 0 0 #0026F4;
 }
+
+
+.below1{
+  padding-left: 550px;
+  padding-top: 600px;
+  }
+  
+  .above1{
+    position: fixed;
+    padding-left: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    
+    .below1{
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    
+    .above1{
+      position: static;
+      margin-left: 0px;
+    }
+  
+  }

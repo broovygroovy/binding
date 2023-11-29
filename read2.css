@@ -1,10 +1,15 @@
 h1{
   font-family: Chronicle Deck;
-  font-size: 60px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 325;
-  text-transform: capitalize;
   padding-left: 10%;
+  padding-bottom: 1%;
+}
+
+@media screen and (max-width: 800px) {
+  h1{
+    padding-bottom: 2%;}
 }
 
 .navbox{
@@ -33,6 +38,7 @@ h1{
   font-weight: 325;
   line-height: normal;
   padding-bottom: 2%;
+  padding-left: 5%
 }
 
 .descrip{
@@ -41,13 +47,14 @@ h1{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 5%
 }
 
 .fontcard{
   padding: 10px;
   border: 1px solid #0026F4;
   position: relative;
-  width: 380px;
+  width: 340px;
   height: 90px;
   border-radius: 10px;
   margin-left: 10%;
@@ -60,10 +67,10 @@ h1{
   border: 1px solid white;
   background-color: #a6b4ff;
   width: 300px;
-  height: 80px;
   border-radius: 10px;
   margin-left: 10%;
   margin-top: 10px;
+  padding-bottom: 2%;
 }
 
 .advice{
@@ -78,5 +85,38 @@ h1{
 
 .typebox{
   display: flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
+
+
+@media screen and (max-width: 800px) {
+  .typebox{
+    padding-bottom: 15%;
+    padding-top: 10%;}
+}
+
+.below2{
+  padding-left: 450px;
+  padding-top: 550px;
+  }
+  
+  .above2{
+    position: fixed;
+    padding-left: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    
+    .below2{
+      padding-left: 0px;
+      padding-top: 0px;
+    }
+    
+    .above2{
+      position: static;
+      margin-left: 0px;
+    }
+  
+  }

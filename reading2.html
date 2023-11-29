@@ -33,19 +33,32 @@
           
         <main>
         <button onclick="topFunction()" id="scrollbtn" title="Go to top">↑</button>
-        <div class="headbar"><p class="pdsmall">Pillars<em class="ofsmall">of</em> Design</p></div>
-        <h1> Thinking with type</h1>
+
+        <section class="above2">
+        <div class="headbar"><a href="index.html"><p class="pdsmall">Pillars<em class="ofsmall">of</em> Design</p></a></div>
+        
+        <div class="topcard">
+        <div class="topiccard1">
+            <div class="word">ing</div>
+            <p class="topic2">Type</p>
+            </div>
+            </div>
+        
+            <h1> Thinking with type</h1>
         <p class="subhead">by Ellen Lupton</p>
 
         <div class="navbox">
-        <p class="navitem">font family</p>
-        <p class="navitem">content</p>
-        <p class="navitem">size</p>
-        <p class="navitem">advice</p>
+        <p class="navitem"><a href="#font">font family</p></a>
+        <p class="navitem"><a href="#cont">content</p></a>
+        <p class="navitem"><a href="#size">size</p></a>
+        <p class="navitem"><a href="#advice">advice</p></a>
         </div>
+        </section>
+
+        <section class="below2">
         <div class="typebox">
         <div class="fontcard">
-            <p class="quote">BASKERVILLE</p>
+            <p class="quote" id="font">BASKERVILLE</p>
             <p class="descrip">Designed by John Baskerkville, 1757</p>
         </div>
 
@@ -66,7 +79,7 @@
 
         <div class="fontcard">
             <p class="quote">CLARENDON</p>
-            <p class="descrip">Named for the Clarendon Press, Oxford, 1845</p>
+            <p class="descrip">Named for the Clarendon Press, 1845</p>
         </div>
 
         <div class="fontcard">
@@ -84,7 +97,7 @@
             <p class="descrip">Designed by Zuzana Licko, 1996</p>
         </div>
     </div>
-        <p class="subhead">HUMANISM AND THE BODY</p>
+        <p class="subhead"id="cont">HUMANISM AND THE BODY</p>
         <p>
             In fifteenth-century Italy, humanist writers and scholars rejected gothic scripts in favor of the lettera antica, a classical mode of handwriting with wider, more open forms. The preference for lettera antica was part of the Renaissance (rebirth) of classical art and literature. Nicolas Jenson, a Frenchman who had learned to print in Germany, established an influential printing firm in Venice around 1469. His typefaces merged the gothic traditions he had known in France and Germany with the Italian taste for rounder, lighter forms. They are considered among the first—and finest—roman typefaces.
         </p>
@@ -97,10 +110,10 @@
             Italic letters, also introduced in fifteenth-century Italy (as their name suggests), were modeled on a more casual style of handwriting. While the upright humanist scripts appeared in prestigious, expensively produced books, the cursive form was used by the cheaper writing shops, where it could be written more rapidly than the carefully formed lettera antica. Aldus Manutius was a Venetian printer, publisher, and scholar who used italic typefaces in his internationally distributed series of small, inexpensive books. The cursive form saved money because it saved space. Aldus Manutius’s books often paired cursive letters with roman capitals; the two styles still were considered fundamentally distinct.
         </p>
         <br>
-        <p>
+        <p id="size">
             In the sixteenth century, printers began integrating roman and italic forms into type families with matching weights and x-heights (the height of the main body of the lowerface letter). Today, the italic style in most fonts is not simply a slanted version of the roman; it incorporates the curves, angles, and narrower proportions associated with cursive forms.
         </p>
-
+<div class="typebox">
         <div class="namecard">
             <p class="descrip">14-PT | 9/12</p>
             <p class="quote">SABON</p>
@@ -129,7 +142,8 @@
             <p class="descrip">14-PT | 8.5/12</p>
             <p class="quote">FUTURA</p>
         </div>
-        <p class="subhead">free advice</p>
+    </div>
+        <p class="subhead"id="advice">free advice</p>
         <p class="advice">Think more, design less.</p>
         <p>Many desperate acts of design (including gradients, drop shadows, and the gratuitous use of transparency) are perpetrated in the absence of a strong concept. A good idea provides a framework for design decisions, guiding the work.</p>
 
@@ -150,12 +164,11 @@
 
         <p class="advice">Make it bigger.</p>
         <p>Amateur typographers make their type too big. The 12-point default which looks okay on the screen—often looks horsey on the page. Experienced designers, however, make their type too tiny.</p>
-
+    </section>
     </main>
-        <footer>
-          <div class="bluefooter"> 
-            <p class="pdsmall">Pillars<em class="ofsmall">of</em> Design</p>
-        </footer>
+    <footer>
+        <div class="bluefooter"></div>
+      </footer>
         <script>
           /* HamburgerMenu*/
           function toggleMenu() {

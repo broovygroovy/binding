@@ -64,7 +64,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
-  opacity:50%;}
+  opacity:50%;
+  padding-bottom: 10px;}
 
 .grid {
   color: #FFF;
@@ -108,7 +109,14 @@ font-weight: 400;
 line-height: 26px;
 width: 90%;
 padding-left: 10%;
-max-width: 800px;
+padding-bottom: 2%;
+padding-top: 1px;
+max-width: 700px;
+}
+
+@media screen and (max-width: 800px) {
+  p{
+    padding-bottom: 5%;}
 }
 
 .subhead{
@@ -117,17 +125,21 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 letter-spacing: 2.7px;
-padding-top: 2%;
 padding-bottom: 2%;
 text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 800px) {
+  .subhead{
+    padding-bottom: 5%;}
 }
 
 /* Logo*/
 .bluelogobox{
   background-color: #0026F4;
   color: white;
-  padding-top: 150px;
-  padding-bottom: 5%;
+  padding-top: 100px;
 }
 
 .pdsmall{
@@ -136,6 +148,7 @@ text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 4.32px;
   text-transform: uppercase;
+  padding-bottom: 3px;
 }
 
 .ofsmall{
@@ -157,26 +170,58 @@ text-transform: uppercase;
 }
 
 .pdbig{
-  color: #0026F4;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 400;
-  letter-spacing: 8.32px;
+  letter-spacing: 12px;
   text-transform: uppercase;
   line-height: normal;
   padding-bottom: 10%;
   padding-top: 10%;
+  background: linear-gradient(
+        to right,
+        #5974ff 20%,
+        #00affa 30%,
+        #000000 70%,
+        #0026F4 80%
+    );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
 }
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pdbig{
+    font-size: 40px;
+    letter-spacing: 8.32px;}
+}
+
 
 .ofbig{
   color: #0026F4;
   font-family: Chronicle Deck;
-  font-size: 40px;
+  font-size: 80px;
   font-style: italic;
   font-weight: 375;
   text-transform: lowercase;
   line-height: normal;
   letter-spacing: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .ofbig{
+    font-size: 40px;}
 }
 
 /*Scroll Button*/
@@ -210,42 +255,55 @@ text-transform: uppercase;
 
 .bluefooter{
   background-color:#0026F4;
-  padding-top: 40px;
-  padding-bottom: 3%;
-  color: #FFF;
-  margin-top: 40px;
+  height: 20px;
 }
 
 /*chapter cards*/
 .chaptersec{
   display: flex;
-  margin-left: 3%;
   overflow-y: scroll;
-}
+  padding-top: 30px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 7%;}
+
+  @media screen and (max-width: 800px) {
+    .chaptersec{
+      padding-left: 2%;}
+
+    .topiccard1{
+      margin-left: 20px;}
+  }
+
 .topiccard1{
   display:inline-block;
   min-width: 232px;
   height: 376px;
   background-color: #0026f4;
   border-radius: 10px;
-  margin-left: 12%;
   position: relative;
+  margin-left: 40px;
+}
 
+.topiccard1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
 .line{
   width: 100%;
-    height: 20px;
-    position: absolute;
-    background: wheat;
-    margin-top: 50px;
+  height: 20px;
+  position: absolute;
+  background: white;
+  opacity: 60%;
+  margin-top: 50px;
 }
 
 .line.vertical {
   width: 20px;
-    height: 100%;
-    margin-top: 0;
-    margin-left: 140px;
+  height: 100%;
+  margin-top: 0;
+  margin-left: 140px;
 }
 
 .topic1{
@@ -257,6 +315,18 @@ text-transform: uppercase;
   letter-spacing: 4.5px;
   text-transform: uppercase;
   margin-top: 320px;
+}
+
+.word{
+  position: absolute;
+  opacity: 60%;
+  margin-left: -15px;
+  margin-top: 5px;
+  color: #FFF;
+  font-family: Chronicle Deck;
+  font-size: 169.555px;
+  font-style: italic;
+  font-weight: 325;
 }
 
 .topic2{
@@ -276,3 +346,49 @@ text-transform: uppercase;
   font-weight: 600;
   margin-top: 320px;
 }
+
+.block{
+  display: inline-flex;
+  position: absolute;
+  margin-top: 5%;
+  width: 55px;
+  height: 85px;
+  background: white;
+  border-radius: 5px;
+}
+
+.block.block1{
+  margin-left: 20px;
+  opacity: 80%;
+}
+
+.block.block2{
+  margin-left: 85px;
+  opacity: 60%;
+}
+
+.block.block3{
+  margin-left: 150px;
+  opacity: 40%;
+}
+
+.group1{
+  margin-top: 5%;
+}
+
+.group2{
+  margin-top: 46%;
+}
+
+.topcard{
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+@media screen and (max-width: 800px) {
+  .topcard{
+    padding-top: 8%;
+    padding-bottom: 8%;}
+}
+
+
