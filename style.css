@@ -185,6 +185,7 @@ text-transform: uppercase;
         #000000 70%,
         #0026F4 80%
     );
+    
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
